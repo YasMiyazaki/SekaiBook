@@ -53,3 +53,24 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# ユーザ
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+
+# Debugger
+gem 'pry-byebug', group: :development
+
+# 国籍選択
+gem 'country_select'
+
+# SNS
+gem 'meta-tags'
+
+# スクレイピング
+gem 'metainspector'
+
+# ページネーション
+# gem 'kaminari'
